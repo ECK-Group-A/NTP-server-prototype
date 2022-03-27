@@ -26,7 +26,15 @@ w32t /stripchart /computer:raspberrypi /dataonly /samples
 
 7. Some other usefull commands:
 ``` bash
-sudo service ntp status | start | stop | restart
+sudo service ntp status
+``` bash
+sudo service ntp start
+```
+``` bash
+sudo service ntp stop
+```
+``` bash
+sudo service ntp restart
 ```
 ```bash
 ntpq -p
