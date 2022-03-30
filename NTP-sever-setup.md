@@ -21,7 +21,7 @@ sudo service ntp start
 
 6. Query the ntp server from windows client to see if it is working:
 ```shell
-w32t /stripchart /computer:raspberrypi /dataonly /samples
+w32tm /stripchart /computer:raspberrypi /dataonly /samples:5
 ```
 
 7. Some other usefull commands:
