@@ -31,7 +31,7 @@ gpsmon
 ```
 ntp server's time and time source
 ```bash
-ntpq -p
+cgps -s
 ```
 8. Query the ntp server from windows client to see if it is working:
 ```shell
