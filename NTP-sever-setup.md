@@ -27,11 +27,11 @@ sudo reboot
 ```
 Overview with GPS information.
 ```bash
-gpsmon
+cgps -s
 ```
 ntp server's time and time source
 ```bash
-cgps -s
+ntpq -p
 ```
 8. Query the ntp server from windows client to see if it is working:
 ```shell
