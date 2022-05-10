@@ -12,8 +12,8 @@ sudo apt-get install ntp
 ``` bash
 sudo apt install gpsd gpsd-clients
 ```
-4. Replace /etc/default/gpsd with gpsd in this rep, replace /ect/ntp.conf with ntp.conf in this rep.
-5. Start the GPS Daemon and ntp server
+4. Replace /etc/default/gpsd with gpsd in this rep, replace /ect/ntp.conf with ntp.conf in this rep, replace /etc/ntp with ntp in this rep
+6. Start the GPS Daemon and ntp server
 ```bash
 sudo systemctl enable gpsd.service
 ```
